@@ -1,0 +1,185 @@
+body {
+	background-color: #ebe8e7
+
+}
+
+ /* CLOCK */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+ 
+
+.container {
+      height: 35vh;
+      background: linear-gradient(to right, #ff9472, #f2709c);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Open Sans', sans-serif;
+}
+
+.clock {
+    width: 550px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clock div {
+    background-color: #fff;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: #202020;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0.3);
+    letter-spacing: 3px;
+}
+.clock span {
+    font-weight: bolder;
+    font-size: 60px;
+    color: #fff;
+}
+
+
+header {
+	text-align: left;
+	padding: 20px;
+  }
+
+h1 {
+	text-align: center;
+    text-transform: uppercase;
+    color: #0b0b0b;
+	font-family: sans-serif;
+	text-decoration-line: underline;
+    text-decoration-thickness: auto;
+  }
+  
+h2 {
+	margin-top: 50px;
+  }
+  
+  #city-section{
+	margin: 50px 0;
+	border: 1px solid #ccc;
+	padding: 70px;
+	background-color: #ea7186;
+  }
+
+  #timezone-section {
+	margin: 50px 0;
+	border: 1px solid #ccc;
+	padding: 70px;
+	background-color: #f2c76e;
+}
+
+  #convert-section {
+	margin: 50px 0;
+	border: 1px solid #ccc;
+	padding: 70px;
+	background-color: #7a77b9;
+  }
+
+  #favorite-section {
+	margin: 50px 0;
+	border: 1px solid #ccc;
+	padding: 70px;
+	background-color: #bd9dea;
+  }
+  
+  #city-form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+  }
+
+  #timezone-form{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+  }
+
+  #convert-form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+  }
+
+  #favorite-form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+  }
+  
+  #city-form input {
+	flex-grow: 1;
+	margin-right: 10px;
+	width: 60%;
+    margin-left: 35px;
+    display: block;
+  }
+
+  #timezone-form input {
+	flex-grow: 1;
+	margin-right: 10px;
+	width: 60%;
+    margin-left: 35px;
+    display: block;
+  }
+
+  #convert-form input {
+	flex-grow: 1;
+	margin-right: 10px;
+	width: 60%;
+    margin-left: 35px;
+    display: block;
+  }
+
+  #favorite-form input {
+	flex-grow: 1;
+	margin-right: 10px;
+	width: 60%;
+    margin-left: 35px;
+    display: block;
+  }
+  
+  #city-result {
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+  }
+
+  #timezone-result {
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+  }
+
+  #convert-result {
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+  }
+  
+  #favorite-list {
+	text-align: center;
+	font-size: 20px;
+	font-family: sans-serif;
+  }
+  
+
+  #favorite-list button {
+	margin-left: 10px;
+  }
+
+h5{
+	font-size: 22px;
+}
+  
