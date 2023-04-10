@@ -33,6 +33,9 @@ or:
 (Error: Failed to fetch)
 
 when using the live link try cloning the repository.
+Unfortunately the live link is a bit wonky but still working on it so that it works full time with out any errors.
+
+For any other bugs, errors or improvements feel free to out on my Email: samanthanyams5@gmail.com
 
 # LICENSE
 
