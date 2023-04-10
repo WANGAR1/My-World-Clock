@@ -21,10 +21,10 @@ As I was saying, it'll helps us get current time, it also helps us get time in c
 
 You can either use the live link "https://wangar1.github.io/My-World-Clock/",
 
-Clone this repository.
-Open the Index.html.
-Put in your city of choice.
-Click the button at the end and get your information about the time.
+1. Clone this repository.
+2. Open the Index.html.
+3. Put in your city of choice.
+4. Click the button at the end and get your information about the time.
 
 # LICENSE
 
