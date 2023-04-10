@@ -28,6 +28,12 @@ or:
 3. Put in your city of choice.
 4. Click the button at the end and get your information about the time.
 
+#Inase of this error message 
+
+(Error: Failed to fetch)
+
+when using the live link try cloning the repository.
+
 # LICENSE
 
 It is licensed by "BSD 2-Clause License"
