@@ -17,6 +17,15 @@ As I was saying, it'll helps us get current time, it also helps us get time in c
 3. Helps us convert time from one city to another.
 4. Lets us put chosen cities in a favourite list.
 
-In order to access the project use the live link "https://wangar1.github.io/My-World-Clock/"
+# In order to access the project, 
 
+You can either use the live link "https://wangar1.github.io/My-World-Clock/",
 
+Clone this repository.
+Open the Index.html.
+Put in your city of choice.
+Click the button at the end and get your information about the time.
+
+# LICENSE
+
+It is licensed by "BSD 2-Clause License"
