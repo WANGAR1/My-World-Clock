@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link  rel="stylesheet" href="style.css">
+    <title>WORLD CLOCK</title>
+</head>
+<body>
+    
+    <header> 
+        <h1>WORLD CLOCK</h1>
+    </header>
+
+    <br>
+    <br>
+    <br>
+     <!--CLOCK-->
+    <div class="container">
+        <div class="clock">
+            <div id="hour" >00</div>
+            <span>:</span>
+            <div id="minute">00</div>
+            <span>:</span>
+            <div id="seconds">00</div>
+        </div>
+    
+    </div>
+
+
+
+     <!--USER STORY 1-->
+    <div id="city-section">
+        <h2>Get Current Time in any City</h2>
+    
+        <div id="city-form">
+
+          <input type="text" id="city-name" placeholder="City Name">
+          <button onclick="getCurrentTime()" id="get-current-time-btn">
+            Get Current Time
+          </button>
+
+        </div>
+    
+        <div id="city-result"></div>
+      </div>
+    
+
+    <!--USER STORY 2-->
+
+    <div id="timezone-section">
+      <h2>Get Timezone Information by IANA Timezone Name</h2>
+
+      <div id="timezone-form">
+
+        <input type="text" id="timezone-name" placeholder="IANA Timezone Name">
+        <button onclick="getTimezoneInfo()" id="get-timezone-info-btn">
+            Get Timezone Info
+        </button>
+
+      </div>
+
+      <div id="timezone-result"></div>
+    </div>
+
+    <!--USER STORY 3-->  
+
+    <div id="convert-section">
+        <h2>Convert Time from one Timezone to another</h2>
+    
+        <div id="convert-form">
+          <label>Time:</label>
+          <input type="text" id="convert-time" placeholder="YYYY-MM-DD HH:mm:ss" value="2021-08-18 12:00:00">
+          <br><br>
+    
+          <label>From Timezone:</label>
+          <input type="text" id="from-timezone" placeholder="IANA Timezone Name" value="Asia/Kolkata">
+          <br><br>
+    
+          <label>To Timezone:</label>
+          <input type="text" id="to-timezone" placeholder="IANA Timezone Name" value="America/New_York">
+          <br><br>
+    
+          <button onclick="convertTime()" id="convert-time-btn">
+            Convert Time
+          </button>
+        </div>
+
+        <div id="convert-result"></div>
+  </div>
+    
+    <!--USER STORY 4-->
+	
+    <div id="favorite-section">
+        <h2>Add Cities to Favorite List</h2>
+    
+        <div id="favorite-form">
+          <input type="text" id="favorite-city" placeholder="City Name">
+          <button onclick="addFavorite()" >
+            Add to Favorite
+        </button>
+        </div>
+    
+        <div id="favorite-list"></div>
+      </div>
+
+	<!-- Favorite time zones list -->
+	<h5>Favorites</h5>
+	<ul id="favorites"></ul>
+   
+    <script src="script.js" async defer></script>
+</body>
+</html>
+
